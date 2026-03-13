@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Syntrix Presale</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tonconnect/sdk@latest/dist/tonconnect.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Syntrix Token Presale</h1>
+      <p>Price: $0.01 | Listing: $0.05</p>
+      <button id="connectWallet">Connect Wallet</button>
+    </header>
+
+    <section class="progress">
+      <p>Raised: <span id="raised">0</span> / 200,000 TON</p>
+      <div class="progress-bar">
+        <div id="progressFill"></div>
+      </div>
+    </section>
+
+    <section class="buy">
+      <h2>Buy Syntrix Tokens</h2>
+      <label>You Pay (TON):
+        <input type="number" id="amountIn" value="10">
+      </label>
+      <label>You Get (SYN):
+        <input type="number" id="amountOut" value="1000" readonly>
+      </label>
+      <button id="buyToken">Buy Tokens</button>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

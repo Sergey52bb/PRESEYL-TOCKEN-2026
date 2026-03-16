@@ -1,16 +1,9 @@
 {
   "name": "Syntrix Presale",
   "short_name": "Syntrix",
-  "description": "Presale website for Syntrix Token",
-  "icons": [
-    {
-      "src": "assets/logo.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    }
-  ],
+  "description": "Syntrix Token Presale Website",
   "start_url": "/index.html",
   "display": "standalone",
-  "theme_color": "#00f0ff",
-  "background_color": "#0b0b1a"
+  "theme_color": "#14e0e0",
+  "background_color": "#07071a"
 }
